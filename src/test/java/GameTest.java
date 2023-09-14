@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 public class GameTest {
 
     @Test
-    public  void playerTwoWinTest() {
+    public void playerTwoWinTest() {
         Player zhenya = new Player(1, "Женя", 130);
         Player danil = new Player(2, "Данил", 140);
         Game game = new Game();
@@ -18,7 +18,7 @@ public class GameTest {
     }
 
     @Test
-    public  void playerOneWinTest() {
+    public void playerOneWinTest() {
         Player zhenya = new Player(1, "Женя", 155);
         Player danil = new Player(2, "Данил", 140);
         Game game = new Game();
@@ -32,7 +32,7 @@ public class GameTest {
     }
 
     @Test
-    public  void BothWinsTest() {
+    public void BothWinsTest() {
         Player zhenya = new Player(1, "Женя", 140);
         Player danil = new Player(2, "Данил", 140);
         Game game = new Game();
@@ -46,10 +46,8 @@ public class GameTest {
     }
 
 
-
-
     @Test
-    public  void FirstNotExistTest() {
+    public void FirstNotExistTest() {
         Player zhenya = new Player(1, "Женя", 140);
         Player danil = new Player(2, "Данил", 140);
         Game game = new Game();
@@ -61,7 +59,7 @@ public class GameTest {
     }
 
     @Test
-    public  void SecondNotExistTest() {
+    public void SecondNotExistTest() {
         Player zhenya = new Player(1, "Женя", 140);
         Player danil = new Player(2, "Данил", 150);
         Game game = new Game();
@@ -74,7 +72,7 @@ public class GameTest {
     }
 
     @Test
-    public  void BothNotExistTest() {
+    public void BothNotExistTest() {
         Player zhenya = new Player(1, "Женя", 140);
         Player danil = new Player(2, "Данил", 140);
         Game game = new Game();
